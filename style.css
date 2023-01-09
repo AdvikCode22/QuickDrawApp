@@ -1,0 +1,49 @@
+#head1{
+    animation-name: headAni;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    padding: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 20px;
+}
+
+@keyframes headAni{
+    0%{background-color: lightskyblue;}
+    50%{background-color: rgb(98, 255, 177);}
+    100%{background-color: lightskyblue;}
+}
+
+#sketches{
+    float: right;
+}
+
+h2{
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+#left1{
+    float: left;
+}
+
+#right1{
+    float: right;
+}
+
+@keyframes lightcolors{
+    0%{color: lightgoldenrodyellow;}
+    33%{color: lightgray;}
+    66%{color: lightsalmon;}
+    100%{color: lightgoldenrodyellow;}
+}
+
+#targetSketch{
+    animation-name: lightcolors;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
