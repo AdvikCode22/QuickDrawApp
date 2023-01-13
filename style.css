@@ -47,3 +47,21 @@ body{
     animation-duration: 3s;
     animation-iteration-count: infinite;
 }
+
+canvas{
+    margin-top: 200px;
+    border-radius: 10px;
+    border-color: black;
+    border-width: 5px;
+    border-style: solid;
+    animation-name: shadow;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadow{
+    0%{box-shadow: 2px 2px 50px red; border-color: black;}
+    33%{box-shadow: 2px 2px 50px purple; border-color: rgb(86, 86, 86)}
+    66%{box-shadow: 2px 2px 50px blue; border-color: rgb(160, 160, 160)}
+    100%{box-shadow: 2px 2px 50px red; border-color: black;}
+}
